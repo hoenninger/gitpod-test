@@ -1,12 +1,12 @@
 package test_kotlin
 
-import io.vertx.Vertx
+import io.vertx.core
 
 class TestKotlin {
 
     fun main(args: Array<String>) {
 
-        Vertx.vertx()
-        println("Test-Java");
+        val vertx = Vertx.vertx()
+        println("Vertx instance created in TestKotlin")
     }
 }
