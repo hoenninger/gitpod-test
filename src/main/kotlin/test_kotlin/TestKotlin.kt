@@ -1,6 +1,6 @@
 package test_kotlin
 
-import io.vertx.core
+import io.vertx.core.Vertx
 
 class TestKotlin {
 
